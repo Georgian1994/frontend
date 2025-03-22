@@ -14,7 +14,7 @@ const TranslationApp = () => {
   const [detectedLanguage, setDetectedLanguage] = useState('');
   
   // API endpoint
-  const API_URL = 'http://localhost:3001/api';
+  const API_URL = 'https://backend-production-7d30f.up.railway.app/api';
   
   // Fetch languages on component mount
   useEffect(() => {
